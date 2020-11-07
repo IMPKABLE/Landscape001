@@ -39,6 +39,7 @@ Objects {
   ChildIds: 5492285020458229438
   ChildIds: 9792331855483563017
   ChildIds: 15722196136210895441
+  ChildIds: 2003833553452566114
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -48,6 +49,45 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 2003833553452566114
+  Name: "Tree Oak Bare 01"
+  Transform {
+    Location {
+      X: -26554.5566
+      Y: -2188.72754
+      Z: 8035
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18305221164651464450
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
