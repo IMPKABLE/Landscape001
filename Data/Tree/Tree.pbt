@@ -25,6 +25,9 @@ Objects {
   ChildIds: 4202682696856753093
   ChildIds: 17094991126792685412
   ChildIds: 13686443322479624889
+  ChildIds: 10227876601286434769
+  ChildIds: 14987719775203287549
+  ChildIds: 15250045456032558427
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,6 +37,186 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 15250045456032558427
+  Name: "Rock Block 01"
+  Transform {
+    Location {
+      X: -15500
+      Y: -10600
+      Z: 8650
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6167642048772510800
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 14987719775203287549
+  Name: "Rock 03"
+  Transform {
+    Location {
+      X: -15450
+      Y: -10800
+      Z: 8650
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10770210193365437605
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 10227876601286434769
+  Name: "UI Container"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 4984141736144137569
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Canvas {
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
+  }
+}
+Objects {
+  Id: 4984141736144137569
+  Name: "UI Image"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10227876601286434769
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Control {
+    Width: 200
+    Height: 200
+    UIX: 1200
+    UIY: 1350
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    Image {
+      Brush {
+        Id: 9541162643628705987
+      }
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+      TeamSettings {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:topleft"
+        }
+      }
+    }
   }
 }
 Objects {
@@ -594,21 +777,10 @@ Objects {
   ChildIds: 14906712801604520936
   ChildIds: 14164686667307197826
   ChildIds: 12629323941286389167
-  ChildIds: 11344942629645754172
-  ChildIds: 10477096359765386062
-  ChildIds: 10432641060830881998
-  ChildIds: 1752570236442618614
   ChildIds: 1529343557428940328
   ChildIds: 2977328105818601463
   ChildIds: 1915731779354792464
   ChildIds: 14186169904846902705
-  ChildIds: 3456528149983531682
-  ChildIds: 15662376981706717882
-  ChildIds: 11871763248842354138
-  ChildIds: 10382575623831299991
-  ChildIds: 564548234017492016
-  ChildIds: 4290106305720999674
-  ChildIds: 3174307842508187830
   ChildIds: 3571375132897999781
   ChildIds: 9439974218058757843
   ChildIds: 3660794960116032829
@@ -2130,16 +2302,16 @@ Objects {
   Transform {
     Location {
       X: -426.666626
-      Y: -24.9999943
+      Y: -33.3333244
       Z: 77.7777786
     }
     Rotation {
       Yaw: 89.9999542
     }
     Scale {
-      X: 0.533333302
-      Y: 0.166666627
-      Z: 0.222222224
+      X: 0.75
+      Y: 0.25
+      Z: 0.25
     }
   }
   ParentId: 4202682696856753093
@@ -2611,15 +2783,15 @@ Objects {
     Location {
       X: -426.666626
       Y: -24.9999943
-      Z: -11.1111116
+      Z: -22.2222233
     }
     Rotation {
       Yaw: 89.9999847
     }
     Scale {
-      X: 0.533333302
-      Y: 0.166666627
-      Z: 0.222222224
+      X: 0.5
+      Y: 0.25
+      Z: 0.5
     }
   }
   ParentId: 4202682696856753093
@@ -2650,16 +2822,16 @@ Objects {
   Transform {
     Location {
       X: -426.666626
-      Y: -99.9999771
+      Y: -91.6666412
       Z: 77.7777786
     }
     Rotation {
       Yaw: 89.9999619
     }
     Scale {
-      X: 0.666666627
-      Y: 0.166666627
-      Z: 0.222222224
+      X: 1.00000024
+      Y: 0.25
+      Z: 0.25
     }
   }
   ParentId: 4202682696856753093
@@ -2971,15 +3143,15 @@ Objects {
     Location {
       X: -426.666626
       Y: -133.333298
-      Z: -11.1111116
+      Z: -22.2222233
     }
     Rotation {
       Yaw: 89.9999847
     }
     Scale {
-      X: 0.866666615
-      Y: 0.166666627
-      Z: 0.222222224
+      X: 0.75
+      Y: 0.25
+      Z: 0.5
     }
   }
   ParentId: 4202682696856753093
@@ -3010,16 +3182,16 @@ Objects {
   Transform {
     Location {
       X: -426.666626
-      Y: -91.6666412
-      Z: -11.1111116
+      Y: -99.9999771
+      Z: -22.2222233
     }
     Rotation {
       Yaw: 89.9999924
     }
     Scale {
-      X: 0.533333302
-      Y: 0.166666627
-      Z: 0.222222224
+      X: 0.5
+      Y: 0.25
+      Z: 0.5
     }
   }
   ParentId: 4202682696856753093
@@ -3051,7 +3223,7 @@ Objects {
     Location {
       X: -426.666626
       Y: -58.3333206
-      Z: -22.2222233
+      Z: -33.3333321
     }
     Rotation {
     }
@@ -3318,342 +3490,13 @@ Objects {
   }
 }
 Objects {
-  Id: 3174307842508187830
-  Name: "Fantasy Candle Lit - 02 (Prop)"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4202682696856753093
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 7103854821627125250
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Fantasy Candle Lit - 02 (Prop)"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -226.666656
-            Y: -133.333298
-            Z: -22.2222233
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.266666651
-            Y: 0.166666627
-            Z: 0.222222224
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1741497887590032350
-    }
-  }
-}
-Objects {
-  Id: 4290106305720999674
-  Name: "Fantasy Candle Lit - 03 (Prop)"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4202682696856753093
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 14212237316043937417
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Fantasy Candle Lit - 03 (Prop)"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -199.999985
-            Y: -99.9999771
-            Z: -22.2222233
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.266666651
-            Y: 0.166666627
-            Z: 0.222222224
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7311922909608375210
-    }
-  }
-}
-Objects {
-  Id: 564548234017492016
-  Name: "Fantasy Candle  Lit - Group 02 (Prop)"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4202682696856753093
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2512677760193325878
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Fantasy Candle  Lit - Group 02 (Prop)"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -226.666656
-            Y: -133.333298
-            Z: -22.2222233
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.266666651
-            Y: 0.166666627
-            Z: 0.222222224
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9332022187012848025
-    }
-  }
-}
-Objects {
-  Id: 10382575623831299991
-  Name: "Fantasy Candle Lit - 02 (Prop)"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4202682696856753093
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 7103854821627125250
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Fantasy Candle Lit - 02 (Prop)"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -226.666656
-            Y: -116.666641
-            Z: -22.2222233
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.266666651
-            Y: 0.166666627
-            Z: 0.222222224
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1741497887590032350
-    }
-  }
-}
-Objects {
-  Id: 11871763248842354138
-  Name: "Fantasy Candle Lit - 02 (Prop)"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4202682696856753093
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 7103854821627125250
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Fantasy Candle Lit - 02 (Prop)"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -226.666656
-            Y: -124.999969
-            Z: -22.2222233
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.266666651
-            Y: 0.166666627
-            Z: 0.222222224
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1741497887590032350
-    }
-  }
-}
-Objects {
-  Id: 15662376981706717882
-  Name: "Fantasy Candle Lit - 04 (Prop)"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4202682696856753093
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1446354904182978224
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Fantasy Candle Lit - 04 (Prop)"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -173.333328
-            Y: -99.9999771
-            Z: -22.2222233
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.266666651
-            Y: 0.166666627
-            Z: 0.222222224
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13766493034551291754
-    }
-  }
-}
-Objects {
-  Id: 3456528149983531682
-  Name: "Fantasy Candle Lit - Group 01(Prop)"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4202682696856753093
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8002813443656422609
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Fantasy Candle Lit - Group 01(Prop)"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -186.666656
-            Y: -108.333305
-            Z: -22.2222233
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.266666651
-            Y: 0.166666627
-            Z: 0.222222224
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7951194458873973923
-    }
-  }
-}
-Objects {
   Id: 14186169904846902705
   Name: "Bone Human Scattered 01"
   Transform {
     Location {
       X: -199.999985
       Y: 8.33333111
-      Z: -22.2222233
+      Z: -33.3333321
     }
     Rotation {
     }
@@ -3803,169 +3646,13 @@ Objects {
   }
 }
 Objects {
-  Id: 1752570236442618614
-  Name: "Clover Patch 02"
-  Transform {
-    Location {
-      X: -239.999985
-      Y: -24.9999943
-      Z: -22.2222233
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.266666651
-      Y: 0.166666627
-      Z: 0.222222224
-    }
-  }
-  ParentId: 4202682696856753093
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17175047643134061208
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 10432641060830881998
-  Name: "Clover Patch 02"
-  Transform {
-    Location {
-      X: -253.333313
-      Y: 8.33333111
-      Z: -22.2222233
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.266666651
-      Y: 0.166666627
-      Z: 0.222222224
-    }
-  }
-  ParentId: 4202682696856753093
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17175047643134061208
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 10477096359765386062
-  Name: "Clover Patch 02"
-  Transform {
-    Location {
-      X: -173.333328
-      Y: -8.33333111
-      Z: -22.2222233
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.266666651
-      Y: 0.166666627
-      Z: 0.222222224
-    }
-  }
-  ParentId: 4202682696856753093
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17175047643134061208
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 11344942629645754172
-  Name: "Clover Patch 02"
-  Transform {
-    Location {
-      X: -173.333328
-      Y: -41.6666565
-      Z: -22.2222233
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.266666651
-      Y: 0.166666627
-      Z: 0.222222224
-    }
-  }
-  ParentId: 4202682696856753093
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17175047643134061208
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 12629323941286389167
   Name: "Bone Human Skull Pile 02"
   Transform {
     Location {
       X: -146.666656
       Y: -83.333313
-      Z: -22.2222233
+      Z: -33.3333321
     }
     Rotation {
     }
@@ -5180,9 +4867,9 @@ Objects {
   Name: "FIRE CAMP"
   Transform {
     Location {
-      X: -14550
-      Y: -10550
-      Z: 8700
+      X: -14950
+      Y: -10800
+      Z: 8650
     }
     Rotation {
     }
@@ -30074,11 +29761,11 @@ Objects {
     Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Terrain {
     Material {
-      Id: 5064926084972913017
+      Id: 15871432639809292790
     }
     VoxelSize: 1000
     OctreeDepth: 5
