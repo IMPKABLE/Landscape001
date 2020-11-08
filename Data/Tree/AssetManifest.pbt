@@ -233,6 +233,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9541162643628705987
+  Name: "Fantasy Craft Stone 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Crafting_Stone_006"
+  }
+}
+Assets {
   Id: 8922654055369511435
   Name: "Tree Birch Bare 01"
   PlatformAssetType: 1
@@ -320,15 +329,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_redwood_006"
-  }
-}
-Assets {
-  Id: 5064926084972913017
-  Name: "Forest Floor 02"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "forest-floor_002"
   }
 }
 Assets {
