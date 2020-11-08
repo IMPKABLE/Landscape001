@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17273923236688829199
-  Name: "Bone Human Ribcage 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_human_ribcage_01_ref"
-  }
-}
-Assets {
   Id: 17175047643134061208
   Name: "Clover Patch 02"
   PlatformAssetType: 1
@@ -86,15 +77,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_stone_doorway_001"
-  }
-}
-Assets {
-  Id: 15972888801459403779
-  Name: "Bone Human Jaw 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_human_jaw_01_ref"
   }
 }
 Assets {
@@ -188,12 +170,30 @@ Assets {
   }
 }
 Assets {
+  Id: 10515999806765543593
+  Name: "Fern 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_004"
+  }
+}
+Assets {
   Id: 10453049246070605379
   Name: "Branches Cluster Small"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_gen_branches_small_001"
+  }
+}
+Assets {
+  Id: 10338734510588644295
+  Name: "Fern 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_002"
   }
 }
 Assets {
@@ -221,6 +221,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bones_human_scatter_01_ref"
+  }
+}
+Assets {
+  Id: 9605028439065172028
+  Name: "Fern 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_fern_generic_001"
   }
 }
 Assets {
@@ -284,15 +293,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_redwood_005"
-  }
-}
-Assets {
-  Id: 6773890152051230062
-  Name: "Bone Human Spine 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_human_spine_01_ref"
   }
 }
 Assets {
@@ -383,15 +383,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bush_generic_002"
-  }
-}
-Assets {
-  Id: 1712070695033352241
-  Name: "Bone Human Skull 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_human_skull_01_ref"
   }
 }
 Assets {
